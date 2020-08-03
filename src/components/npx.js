@@ -4,7 +4,7 @@ import "../App.css"
 const Npx = () => {
   return (
     <p id="npx-package">
-      <code>npx alex-billson</code>
+      <code>npx alexbillson-dev</code>
     </p>
   )
 }
