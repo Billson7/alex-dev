@@ -15,7 +15,7 @@ const App = () => {
       <div className="left-site-content">
         <h4 id="subHeader">SOFTWARE DEVELOPER</h4>
         <div id="placeholder">
-          <p>This will be a cool subheading that isn't a placeholder</p>
+          <p>I am a Leeds based, frontend software developer.</p>
         </div>
         <Email />
         <Npx />
