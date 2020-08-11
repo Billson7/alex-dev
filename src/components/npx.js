@@ -3,9 +3,9 @@ import "../App.css"
 
 const Npx = () => {
   return (
-    <p id="npx-package">
-      <code>npx alexbillson-dev</code>
-    </p>
+      <p id="npx-package">
+        <code>npx alexbillson-dev</code>
+      </p>
   )
 }
 
