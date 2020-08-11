@@ -86,10 +86,10 @@
   font-size: 12px;
   line-height: 50%;
   opacity: 50%;
-  animation-name: pop-up;
-  animation-duration: 3s;
+  -webkit-animation-name: pop-up;
+  -webkit-animation-duration: 3s;
 }
-@keyframes pop-up {
+@-webkit-keyframes pop-up {
   0% {opacity: 0%;}
   50% {opacity: 0%;}
   100% {opacity: 50%;}
