@@ -78,7 +78,23 @@
   text-align: left;
   max-width: fit-content;
   font-size: 20px;
+  margin-bottom: 0;
 }
+
+#info-disclaimer{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  line-height: 50%;
+  opacity: 50%;
+  animation-name: pop-up;
+  animation-duration: 3s;
+}
+@keyframes pop-up {
+  0% {opacity: 0%;}
+  50% {opacity: 0%;}
+  100% {opacity: 50%;}
+}
+
 
 #logo {
   display: flex;
@@ -119,13 +135,19 @@
     padding: 10px 10px 10px 10px;
   }
 
-  #placeholder {
+  #bio-info {
     text-align: center
   }
 
   #npx-package {
     align-self: center;
     font-size: 15px;
+  }
+
+  #info-disclaimer{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    padding: 0;
   }
 
   #image {
