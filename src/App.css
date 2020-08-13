@@ -83,9 +83,8 @@
 
 #info-disclaimer{
   font-family: 'Titillium Web', sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 50%;
-  opacity: 50%;
   animation-name: pop-up;
   animation-duration: 10s;
 }
@@ -98,7 +97,6 @@
     opacity: 50%;
   }
 }
-
 
 #logo {
   display: flex;
