@@ -84,9 +84,10 @@
 #info-disclaimer{
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
+  color: #D3D3D3;
   line-height: 50%;
   animation-name: pop-up;
-  animation-duration: 10s;
+  animation-duration: 5s;
 }
 
 @keyframes pop-up {
@@ -94,7 +95,7 @@
     opacity: 0;
   }
   to {
-    opacity: 50%;
+    opacity: 1;
   }
 }
 
