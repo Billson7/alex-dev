@@ -87,7 +87,7 @@
   color: #D3D3D3;
   line-height: 50%;
   animation-name: pop-up;
-  animation-duration: 5s;
+  animation-duration: 10s;
 }
 
 @keyframes pop-up {
