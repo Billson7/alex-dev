@@ -55,7 +55,7 @@
   color: white;
 }
 
-#placeholder {
+#bio-info {
   font-family: 'Titillium Web', sans-serif;
   text-align: left;
   font-size: 20px;
@@ -81,7 +81,7 @@
   margin-bottom: 0;
 }
 
-#info-disclaimer{
+#info-disclaimer {
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
   color: #D3D3D3;
@@ -94,6 +94,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -102,7 +103,6 @@
 #logo {
   display: flex;
   flex-direction: row;
-  position: fixed;
   padding: 20px 20px 20px 50px;
   top: 0;
   left: 0;
@@ -147,7 +147,7 @@
     font-size: 15px;
   }
 
-  #info-disclaimer{
+  #info-disclaimer {
     font-family: 'Titillium Web', sans-serif;
     font-size: 10px;
     padding: 0;
