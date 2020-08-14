@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Titillium+Web&display=swap');
 
+body{
+  background: linear-gradient(110deg, #282c34 60%, #FFC30B 60%)  no-repeat;
+  min-height: 100vh;
+}
+
 .page-section {
   padding: 20px;
-  background: linear-gradient(110deg, #282c34 60%, #FFC30B 60%);
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: row;
   color: white;
@@ -106,6 +110,7 @@
   padding: 20px 20px 20px 50px;
   top: 0;
   left: 0;
+  height: fit-content;
 }
 
 #logo-image {
@@ -117,10 +122,43 @@
   justify-content: right;
 }
 
+@media only screen and (max-width: 850px) and (min-width: 601px) {
+
+  body{
+    background: linear-gradient(105deg, #282c34 60%, #FFC30B 60%)  no-repeat;
+    min-height: 100vh;
+  }
+
+  .page-section {
+    background: linear-gradient(105deg, #282c34 55%, #FFC30B 55%);
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .left-site-content {
+    margin-left: 50px;
+  }
+  .right-side-content {
+    margin-right: 0;
+  }
+
+  #subHeader {
+    font-size: 80px;
+    text-align: left;
+  }
+
+  #logo {
+
+  }
+
+
+}
+
 @media only screen and (max-width: 600px) {
   .page-section {
     background: linear-gradient(150deg, #282c34 55%, #FFC30B 55%);
     flex-direction: column;
+
   }
 
   .left-site-content {
@@ -164,3 +202,4 @@
     font-size: 15px;
   }
 }
+
