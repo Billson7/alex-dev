@@ -15,11 +15,11 @@ const App = () => {
       <div className="left-site-content">
         <h4 id="subHeader">SOFTWARE DEVELOPER</h4>
         <div id="bio-info">
-          <p>I am a Leeds based, frontend software developer.</p>
+          <p>I am a Leeds based, front-end software developer.</p>
         </div>
         <Email />
         <Npx />
-        <p id='info-disclaimer'>*Paste the above command into a terminal</p>
+        <p id="info-disclaimer">*Paste the above command into a terminal</p>
       </div>
 
       <div className="right-side-content">
