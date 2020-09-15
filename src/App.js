@@ -7,12 +7,12 @@ import Email from "./components/email"
 import Npx from "./components/npx"
 const App = () => {
   return (
-    <div className="page-section">
-      <div id="logo">
+    <div className="page-section" data-testid='page-section'>
+      <div id="logo" data-testid='logo-section'>
         <Spinner />
         <Header />
       </div>
-      <div className="left-site-content">
+      <div className="left-site-content" data-testid='left-side-content'>
         <h4 id="subHeader">SOFTWARE DEVELOPER</h4>
         <div id="bio-info">
           <p>I am a Leeds based, front-end Software Developer.</p>
@@ -22,7 +22,7 @@ const App = () => {
         <p id="info-disclaimer">*Paste the above command into a terminal</p>
       </div>
 
-      <div className="right-side-content">
+      <div className="right-side-content" data-testid='right-side-content'>
         <img src={memoji} id="image" alt="Alex on a mac" />
       </div>
     </div>
