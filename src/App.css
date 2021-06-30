@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Titillium+Web&display=swap");
 
-body{
-  background: linear-gradient(110deg, #282c34 60%, #FFC30B 60%)  no-repeat;
+body {
+  background: linear-gradient(110deg, #282c34 60%, #ffc30b 60%) no-repeat;
   min-height: 100vh;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 #header {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   font-size: 20px;
   padding: 5px 0 5px 0;
   text-transform: uppercase;
@@ -51,7 +51,7 @@ body{
 }
 
 #subHeader {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   line-height: 80%;
   margin: 0;
   text-align: left;
@@ -60,7 +60,7 @@ body{
 }
 
 #bio-info {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   text-align: left;
   font-size: 20px;
 }
@@ -73,11 +73,23 @@ body{
   max-width: fit-content;
 }
 
+button {
+  background-color: grey;
+  border-radius: 4px;
+  margin-top: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(92, 91, 91);
+}
+
 #npx-package {
   align-self: left;
   padding: 10px;
-  background-color: grey;
-  border-radius: 4px;
   color: black;
   text-align: left;
   max-width: fit-content;
@@ -86,9 +98,9 @@ body{
 }
 
 #info-disclaimer {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 15px;
-  color: #D3D3D3;
+  color: #d3d3d3;
   line-height: 50%;
   animation-name: pop-up;
   animation-duration: 10s;
@@ -123,14 +135,13 @@ body{
 }
 
 @media only screen and (max-width: 850px) and (min-width: 601px) {
-
-  body{
-    background: linear-gradient(105deg, #282c34 60%, #FFC30B 60%)  no-repeat;
+  body {
+    background: linear-gradient(105deg, #282c34 60%, #ffc30b 60%) no-repeat;
     min-height: 100vh;
   }
 
   .page-section {
-    background: linear-gradient(105deg, #282c34 55%, #FFC30B 55%);
+    background: linear-gradient(105deg, #282c34 55%, #ffc30b 55%);
     flex-direction: column;
     min-height: 100vh;
   }
@@ -146,25 +157,33 @@ body{
     font-size: 80px;
     text-align: left;
   }
-
-  #logo {
-
+  button {
+    display: none;
   }
 
+  button:hover {
+    display: none;
+  }
 
+  #npx-package {
+    display: none;
+  }
+
+  #info-disclaimer {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .page-section {
-    background: linear-gradient(150deg, #282c34 55%, #FFC30B 55%);
+    background: linear-gradient(150deg, #282c34 55%, #ffc30b 55%);
     flex-direction: column;
-
   }
 
   .left-site-content {
     margin-top: 75px;
     min-width: 80vw;
-    text-align: center
+    text-align: center;
   }
 
   #subHeader {
@@ -177,18 +196,23 @@ body{
   }
 
   #bio-info {
-    text-align: center
+    text-align: center;
+  }
+
+  button {
+    display: none;
+  }
+
+  button:hover {
+    display: none;
   }
 
   #npx-package {
-    align-self: center;
-    font-size: 15px;
+    display: none;
   }
 
   #info-disclaimer {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 10px;
-    padding: 0;
+    display: none;
   }
 
   #image {
@@ -202,4 +226,3 @@ body{
     font-size: 15px;
   }
 }
-

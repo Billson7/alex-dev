@@ -6,4 +6,4 @@ Personal website
 
 [Check it out!](https://alexbillson.com/)
 
-This project was built with [React](https://reactjs.org/)!
+This project was built with [React](https://reactjs.org/) & [Copy to Clipboard](https://github.com/nkbt/react-copy-to-clipboard)!

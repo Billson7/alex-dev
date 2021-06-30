@@ -5,6 +5,7 @@ import Spinner from "./components/spinner"
 import Header from "./components/header"
 import Email from "./components/email"
 import Npx from "./components/npx"
+
 const App = () => {
   return (
     <div className="page-section">
@@ -19,9 +20,7 @@ const App = () => {
         </div>
         <Email />
         <Npx />
-        <p id="info-disclaimer">*Paste the above command into a terminal</p>
       </div>
-
       <div className="right-side-content">
         <img src={memoji} id="image" alt="Alex on a mac" />
       </div>
