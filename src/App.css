@@ -157,8 +157,20 @@ button:hover {
     font-size: 80px;
     text-align: left;
   }
+  button {
+    display: none;
+  }
 
-  #logo {
+  button:hover {
+    display: none;
+  }
+
+  #npx-package {
+    display: none;
+  }
+
+  #info-disclaimer {
+    display: none;
   }
 }
 
@@ -187,15 +199,20 @@ button:hover {
     text-align: center;
   }
 
+  button {
+    display: none;
+  }
+
+  button:hover {
+    display: none;
+  }
+
   #npx-package {
-    align-self: center;
-    font-size: 15px;
+    display: none;
   }
 
   #info-disclaimer {
-    font-family: "Titillium Web", sans-serif;
-    font-size: 10px;
-    padding: 0;
+    display: none;
   }
 
   #image {
