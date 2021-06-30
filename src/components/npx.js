@@ -1,11 +1,22 @@
-import React from "react"
+import React, { useState } from "react"
 import "../App.css"
+import { CopyToClipboard } from "react-copy-to-clipboard"
 
 const Npx = () => {
+  const commandText = "npx alexbillson-dev"
+  const copiedAlert = () => setAlertText("Copied!")
+  const [alertText, setAlertText] = useState(
+    "Click to copy, then paste into a terminal"
+  )
   return (
-      <p id="npx-package">
-        <code>npx alexbillson-dev</code>
-      </p>
+    <>
+      <CopyToClipboard text={commandText}>
+        <button id="npx-package" onClick={copiedAlert}>
+          <code>{commandText}</code>
+        </button>
+      </CopyToClipboard>
+      <p id="info-disclaimer">{alertText}</p>
+    </>
   )
 }
 
