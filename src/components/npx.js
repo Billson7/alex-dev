@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import "../App.css"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 
-const Npx = () => {
+export const Npx = () => {
   const commandText = "npx alexbillson-dev"
   const copiedAlert = () => setAlertText("Copied!")
   const [alertText, setAlertText] = useState(
@@ -19,5 +19,3 @@ const Npx = () => {
     </>
   )
 }
-
-export default Npx

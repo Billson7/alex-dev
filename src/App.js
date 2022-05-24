@@ -1,12 +1,9 @@
 import React from "react"
 import "./App.css"
 import memoji from "./Assets/me-forwards.png"
-import Spinner from "./components/spinner"
-import Header from "./components/header"
-import Email from "./components/email"
-import Npx from "./components/npx"
+import { Spinner, Header, Email, Npx } from "./components/index"
 
-const App = () => {
+export const App = () => {
   return (
     <div className="page-section">
       <div id="logo">
@@ -27,5 +24,3 @@ const App = () => {
     </div>
   )
 }
-
-export default App
