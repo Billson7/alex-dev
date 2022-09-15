@@ -6,8 +6,7 @@ import Header from "./components/header"
 import Email from "./components/email"
 import Npx from "./components/npx"
 
-const App = () => {
-  return (
+export const App = () => (
     <div className="page-section">
       <div id="logo">
         <Spinner />
@@ -25,7 +24,4 @@ const App = () => {
         <img src={memoji} id="image" alt="Alex on a mac" />
       </div>
     </div>
-  )
-}
-
-export default App
+)
