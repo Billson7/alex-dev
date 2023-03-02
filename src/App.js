@@ -15,7 +15,8 @@ export const App = () => (
     <div className="left-site-content">
       <h4 id="subHeader">SOFTWARE DEVELOPER</h4>
       <div id="bio-info">
-        <p>I am a Leeds based, mid-level Software Developer.</p>
+        <p>I am a Leeds based, Software Developer.</p>
+        <p>React, Typescript</p>
       </div>
       <Email />
       <Npx />
