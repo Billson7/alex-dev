@@ -1,2 +1,3 @@
 export { Hero } from './hero'
-export { BiscuitSection } from './biscuit-section'
+export { Biscuit } from './biscuit'
+export { Work } from './work'

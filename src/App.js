@@ -1,14 +1,12 @@
 import React from "react"
 import "./App.css"
-import { Hero, BiscuitSection } from "./components"
+import { Hero, Biscuit, Work } from "./components"
 
 export const App = () => (
   <main className="page-section">
     <Hero />
-    <BiscuitSection />
-    <section className="section section-work">
-      <div className="flex-row">work section</div>
-    </section>
+    <Biscuit />
+    <Work />
     <section className="section section-cool">
       <div className="flex-row">cool section</div>
     </section>
