@@ -1,28 +1,26 @@
-import React from "react";
-import "./App.css";
-import memoji from "./Assets/me-forwards.png";
-import Spinner from "./components/spinner";
-import Header from "./components/header";
-import { Email } from "./components/email";
-import Npx from "./components/npx";
+import React from "react"
+import "./App.css"
+
+import Spinner from "./components/spinner"
+import { Header } from "./components/header"
 
 export const App = () => (
-  <div className="page-section">
+  <main className="page-section">
     <div id="logo">
       <Spinner />
       <Header />
     </div>
-    <div className="left-site-content">
-      <h4 id="subHeader">SOFTWARE DEVELOPER</h4>
-      <div id="bio-info">
-        <p>I am a Leeds based, Software Developer.</p>
-        <p>React, Typescript</p>
-      </div>
-      <Email />
-      <Npx />
-    </div>
-    <div className="right-side-content">
-      <img src={memoji} id="image" alt="Alex on a mac" />
-    </div>
-  </div>
-);
+    <section className="section section-hero">
+      <div className="flex-row">hero section</div>
+    </section>
+    <section className="section section-biscuit">
+      <div className="flex-row">biscuit section</div>
+    </section>
+    <section className="section section-work">
+      <div className="flex-row">work section</div>
+    </section>
+    <section className="section section-cool">
+      <div className="flex-row">cool section</div>
+    </section>
+  </main>
+)
