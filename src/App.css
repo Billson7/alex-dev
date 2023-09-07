@@ -40,11 +40,12 @@
 }
 
 .profile-image {
-  width: 200px;
-  height: 200px;
-  background-size: 120px 120px;
-  background-repeat: no-repeat;
-  border-radius: 100px;
+  width: 550px;
+  height: 275px; 
+  clip-path: circle();
+  overflow: hidden; 
+  object-fit: cover;
+  object-position: 0 38%;
 }
 
 .profile-heading {
