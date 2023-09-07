@@ -21,6 +21,10 @@
 
 .section-biscuit {
   background: #fbfbfd;
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-work {
