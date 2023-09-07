@@ -1,18 +1,10 @@
 import React from "react"
 import "./App.css"
-
-import Spinner from "./components/spinner"
-import { Header } from "./components/header"
+import { Hero } from "./components"
 
 export const App = () => (
   <main className="page-section">
-    <div id="logo">
-      <Spinner />
-      <Header />
-    </div>
-    <section className="section section-hero">
-      <div className="flex-row">hero section</div>
-    </section>
+    <Hero />
     <section className="section section-biscuit">
       <div className="flex-row">biscuit section</div>
     </section>

@@ -39,6 +39,30 @@
   margin-right: auto;
 }
 
+.profile-image {
+  width: 200px;
+  height: 200px;
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.profile-heading {
+  margin-bottom: 0;
+  font-size: 64px;
+}
+
+.profile-caption {
+  color: #86868b;
+  margin: 0;
+}
+
+.profile-intro {
+  font-size: 24px;
+  width: 80%;
+  margin: 50px auto;
+}
+
 /* logo  */
 #header {
   font-family: "Heebo", sans-serif;
@@ -117,11 +141,11 @@ button:hover {
     min-height: 100vh;
   }
 
-  .page-section {
+  /* .page-section {
     background: linear-gradient(105deg, #282c34 55%, #ffc30b 55%);
     flex-direction: column;
     min-height: 100vh;
-  }
+  } */
 
   .left-site-content {
     margin-left: 50px;
@@ -152,16 +176,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .page-section {
+  /* .page-section {
     background: linear-gradient(150deg, #282c34 55%, #ffc30b 55%);
     flex-direction: column;
-  }
-
-  .left-site-content {
-    margin-top: 75px;
-    min-width: 80vw;
-    text-align: center;
-  }
+  } */
 
   #subHeader {
     font-size: 40px;
