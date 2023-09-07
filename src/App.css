@@ -30,10 +30,18 @@
 .section-work {
   background: #000;
   color: #fff;
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-cool {
   background: #fbfbfd;
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-row {
@@ -45,11 +53,27 @@
 
 .profile-image {
   width: 550px;
-  height: 275px; 
+  height: 275px;
   clip-path: circle();
-  overflow: hidden; 
+  overflow: hidden;
   object-fit: cover;
   object-position: 0 38%;
+}
+
+.biscuit-image-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  gap: 2px;
+}
+
+.biscuit-image {
+  width: 650px;
+  height: 750px;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0 55%;
 }
 
 .profile-heading {
@@ -59,6 +83,11 @@
 
 .profile-caption {
   color: #86868b;
+  margin: 0;
+}
+
+.profile-caption-invert {
+  color: rgb(204, 201, 201);
   margin: 0;
 }
 
