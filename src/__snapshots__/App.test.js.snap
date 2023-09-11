@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders learn react link 1`] = `
+exports[`renders site correctly 1`] = `
 <div>
   <main
     class="page-section"
@@ -29,11 +29,10 @@ exports[`renders learn react link 1`] = `
         <p
           class="profile-intro"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+          Software developer, coffee enthusiast
         </p>
         <code>
           need a graphic here to push the other sections out of initial view
-           
         </code>
       </div>
     </section>
@@ -116,7 +115,16 @@ exports[`renders learn react link 1`] = `
       <div
         class="flex-row"
       >
-        cool section
+        <h2
+          class="profile-heading"
+        >
+          Something cool
+        </h2>
+        <p
+          class="profile-caption"
+        >
+          coming soon
+        </p>
       </div>
     </section>
   </main>
