@@ -60,22 +60,6 @@
   object-position: 0 38%;
 }
 
-.biscuit-image-row {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin: auto;
-  gap: 2px;
-}
-
-.biscuit-image {
-  width: 650px;
-  height: 750px;
-  border-radius: 5px;
-  overflow: hidden;
-  object-fit: cover;
-  object-position: 0 55%;
-}
-
 .profile-heading {
   margin-bottom: 0;
   font-size: 64px;
@@ -97,26 +81,23 @@
   margin: 50px auto;
 }
 
-/* logo  */
-#header {
-  font-family: "Heebo", sans-serif;
-  font-size: 20px;
-  padding: 5px 0 5px 0;
-  text-transform: uppercase;
-  text-align: left;
-  margin: 0;
-}
-/* end logo  */
-
-#subHeader {
-  font-family: "Heebo", sans-serif;
-  line-height: 80%;
-  margin: 0;
-  text-align: left;
-  font-size: 100px;
-  color: white;
+.biscuit-image-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: auto;
+  gap: 2px;
 }
 
+.biscuit-image {
+  width: 650px;
+  height: 750px;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0 55%;
+}
+
+/* npx component */
 button {
   background-color: grey;
   border-radius: 4px;
@@ -149,94 +130,23 @@ button:hover {
   animation-name: pop-up;
   animation-duration: 10s;
 }
-
-@keyframes pop-up {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-#logo {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 20px 20px 50px;
-  top: 0;
-  left: 0;
-  height: fit-content;
-}
+/* end of npx component */
 
 @media only screen and (max-width: 850px) and (min-width: 601px) {
-  body {
-    background: linear-gradient(105deg, #282c34 60%, #ffc30b 60%) no-repeat;
-    min-height: 100vh;
-  }
-
-  /* .page-section {
-    background: linear-gradient(105deg, #282c34 55%, #ffc30b 55%);
-    flex-direction: column;
-    min-height: 100vh;
-  } */
-
-  .left-site-content {
-    margin-left: 50px;
-  }
-  .right-side-content {
-    margin-right: 0;
-  }
-
-  #subHeader {
-    font-size: 80px;
-    text-align: left;
-  }
-  button {
-    display: none;
-  }
-
-  button:hover {
-    display: none;
-  }
-
-  #npx-package {
-    display: none;
-  }
-
-  #info-disclaimer {
-    display: none;
-  }
+/* might be needed for Biscuit images section */
 }
 
 @media only screen and (max-width: 600px) {
-  /* .page-section {
-    background: linear-gradient(150deg, #282c34 55%, #ffc30b 55%);
-    flex-direction: column;
-  } */
-
-  #subHeader {
-    font-size: 40px;
-    text-align: center;
+  .profile-image {
+    width: 375px;
   }
-
-  #logo {
-    padding: 10px 10px 10px 10px;
+  
+  .profile-heading {
+    font-size: 52px; 
   }
-
-  button {
-    display: none;
+  
+  .profile-intro {
+    margin: 25px auto 50px auto; 
   }
-
-  button:hover {
-    display: none;
-  }
-
-  #npx-package {
-    display: none;
-  }
-
-  #info-disclaimer {
-    display: none;
-  }
+  
 }
