@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders Hero section correctly 1`] = `
+exports[`Hero Section renders Hero section correctly 1`] = `
 <div>
   <section
     class="section section-hero"
@@ -15,12 +15,15 @@ exports[`renders Hero section correctly 1`] = `
       />
       <h2
         class="profile-heading"
+        data-testid="profile-heading"
       />
       <p
         class="profile-caption"
+        data-testid="profile-caption"
       />
       <p
         class="profile-intro"
+        data-testid="profile-intro"
       />
       <code>
         need a graphic here to push the other sections out of initial view

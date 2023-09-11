@@ -9,9 +9,11 @@ export const Hero = ({ title, caption, intro }) => (
         alt="profile of Alex"
         className="profile-image"
       />
-      <h2 className="profile-heading">{title}</h2>
-      <p className="profile-caption">{caption}</p>
-      <p className="profile-intro">{intro}</p>
+      <h2 className="profile-heading" data-testid="profile-heading">
+        {title}
+      </h2>
+      <p className="profile-caption" data-testid="profile-caption">{caption}</p>
+      <p className="profile-intro" data-testid="profile-intro">{intro}</p>
       <code>
         need a graphic here to push the other sections out of initial view
       </code>
