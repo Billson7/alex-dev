@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Biscuit section correctly 1`] = `
+<div>
+  <section
+    class="section section-biscuit"
+  >
+    <div
+      class="flex-row"
+    >
+      <h2
+        class="profile-heading"
+      >
+        Biscuit
+      </h2>
+      <p
+        class="profile-caption"
+      >
+        cavapoo, hecking good boy
+      </p>
+      <p
+        class="profile-intro"
+      >
+        He likes toys that squeak, yakker chews and being all in your business
+      </p>
+    </div>
+    <div
+      class="biscuit-image-row"
+    >
+      <img
+        alt="dog"
+        class="biscuit-image"
+        src="biscuit-outside.png"
+      />
+      <img
+        alt="dog"
+        class="biscuit-image"
+        src="biscuit-portrait.jpg"
+      />
+      <img
+        alt="dog"
+        class="biscuit-image"
+        src="biscuit-socks.jpg"
+      />
+    </div>
+  </section>
+</div>
+`;
