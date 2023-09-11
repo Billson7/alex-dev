@@ -1,7 +1,7 @@
 import React from "react"
-import biscuitOutside from "../Assets/biscuit-outside.png"
-import biscuitPortrait from "../Assets/biscuit-portrait.jpg"
-import biscuitSocks from "../Assets/biscuit-socks.jpg"
+import biscuitOutside from "./Assets/biscuit-outside.png"
+import biscuitPortrait from "./Assets/biscuit-portrait.jpg"
+import biscuitSocks from "./Assets/biscuit-socks.jpg"
 
 const lorem =
   "He likes toys that squeak, yakker chews and being all in your business"
