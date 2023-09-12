@@ -3,7 +3,7 @@
 exports[`renders Biscuit section correctly 1`] = `
 <div>
   <section
-    class="section section-biscuit"
+    class="section section-biscuit section-biscuit-layout"
   >
     <div
       class="flex-row"
@@ -29,7 +29,7 @@ exports[`renders Biscuit section correctly 1`] = `
     >
       <img
         alt="dog"
-        class="biscuit-image"
+        class="biscuit-image biscuit-image-mobile"
         src="biscuit-outside.png"
       />
       <img
@@ -39,7 +39,7 @@ exports[`renders Biscuit section correctly 1`] = `
       />
       <img
         alt="dog"
-        class="biscuit-image"
+        class="biscuit-image biscuit-image-mobile biscuit-image-ipad"
         src="biscuit-socks.jpg"
       />
     </div>

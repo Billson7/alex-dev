@@ -12,22 +12,25 @@ exports[`renders site correctly 1`] = `
         class="flex-row"
       >
         <img
-          alt="dog"
+          alt="profile of Alex"
           class="profile-image"
           src="profile-picture.jpeg"
         />
         <h2
           class="profile-heading"
+          data-testid="profile-heading"
         >
           Alex Billson
         </h2>
         <p
           class="profile-caption"
+          data-testid="profile-caption"
         >
           ://developer
         </p>
         <p
           class="profile-intro"
+          data-testid="profile-intro"
         >
           Software developer, coffee enthusiast
         </p>
@@ -37,7 +40,7 @@ exports[`renders site correctly 1`] = `
       </div>
     </section>
     <section
-      class="section section-biscuit"
+      class="section section-biscuit section-biscuit-layout"
     >
       <div
         class="flex-row"
@@ -63,7 +66,7 @@ exports[`renders site correctly 1`] = `
       >
         <img
           alt="dog"
-          class="biscuit-image"
+          class="biscuit-image biscuit-image-mobile"
           src="biscuit-outside.png"
         />
         <img
@@ -73,7 +76,7 @@ exports[`renders site correctly 1`] = `
         />
         <img
           alt="dog"
-          class="biscuit-image"
+          class="biscuit-image biscuit-image-mobile biscuit-image-ipad"
           src="biscuit-socks.jpg"
         />
       </div>
