@@ -14,9 +14,9 @@ export const Biscuit = () => (
       <p className="profile-intro">{lorem}</p>
     </div>
     <div className="biscuit-image-row">
-      <img src={biscuitOutside} alt="dog" className="biscuit-image" />
+      <img src={biscuitOutside} alt="dog" className="biscuit-image biscuit-image-mobile" />
       <img src={biscuitPortrait} alt="dog" className="biscuit-image" />
-      <img src={biscuitSocks} alt="dog" className="biscuit-image" />
+      <img src={biscuitSocks} alt="dog" className="biscuit-image biscuit-image-mobile biscuit-image-ipad" />
     </div>
   </section>
 )
