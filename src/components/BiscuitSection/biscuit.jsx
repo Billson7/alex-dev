@@ -7,7 +7,7 @@ const lorem =
   "He likes toys that squeak, yakker chews and being all in your business"
 
 export const Biscuit = () => (
-  <section className="section section-biscuit">
+  <section className="section section-biscuit section-biscuit-layout">
     <div className="flex-row">
       <h2 className="profile-heading">Biscuit</h2>
       <p className="profile-caption">cavapoo, hecking good boy</p>

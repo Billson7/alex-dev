@@ -27,6 +27,10 @@
   margin-right: auto;
 }
 
+.section-biscuit-layout { 
+  flex-direction: column;
+}
+
 .section-work {
   background: #000;
   color: #fff;
@@ -96,6 +100,8 @@
   object-fit: cover;
   object-position: 0 55%;
 }
+
+
 
 /* npx component */
 button {
