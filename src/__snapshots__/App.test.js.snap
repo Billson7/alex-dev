@@ -127,7 +127,12 @@ exports[`renders site correctly 1`] = `
         <p
           class="profile-caption"
         >
-          coming soon
+          trust me
+        </p>
+        <p
+          class="profile-intro"
+        >
+          Coming soon...
         </p>
       </div>
     </section>
