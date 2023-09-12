@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero Section renders Hero section correctly 1`] = `
+<div>
+  <section
+    class="section section-hero"
+  >
+    <div
+      class="flex-row"
+    >
+      <img
+        alt="profile of Alex"
+        class="profile-image"
+        src="profile-picture.jpeg"
+      />
+      <h2
+        class="profile-heading"
+        data-testid="profile-heading"
+      />
+      <p
+        class="profile-caption"
+        data-testid="profile-caption"
+      />
+      <p
+        class="profile-intro"
+        data-testid="profile-intro"
+      />
+      <code
+        style="display: none;"
+      >
+        need a graphic here to push the other sections out of initial view
+      </code>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Cool section correctly 1`] = `
+<div>
+  <section
+    class="section section-cool"
+  >
+    <div
+      class="flex-row"
+    >
+      <h2
+        class="profile-heading"
+      >
+        Something cool
+      </h2>
+      <p
+        class="profile-caption"
+      >
+        trust me
+      </p>
+      <p
+        class="profile-intro"
+      >
+        Coming soon...
+      </p>
+    </div>
+  </section>
+</div>
+`;

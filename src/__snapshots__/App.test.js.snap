@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders site correctly 1`] = `
+<div>
+  <main
+    class="page-section"
+  >
+    <section
+      class="section section-hero"
+    >
+      <div
+        class="flex-row"
+      >
+        <img
+          alt="profile of Alex"
+          class="profile-image"
+          src="profile-picture.jpeg"
+        />
+        <h2
+          class="profile-heading"
+          data-testid="profile-heading"
+        >
+          Alex Billson
+        </h2>
+        <p
+          class="profile-caption"
+          data-testid="profile-caption"
+        >
+          ://developer
+        </p>
+        <p
+          class="profile-intro"
+          data-testid="profile-intro"
+        >
+          Software developer, coffee enthusiast
+        </p>
+        <code
+          style="display: none;"
+        >
+          need a graphic here to push the other sections out of initial view
+        </code>
+      </div>
+    </section>
+    <section
+      class="section section-biscuit section-biscuit-layout"
+    >
+      <div
+        class="flex-row"
+      >
+        <h2
+          class="profile-heading"
+          data-testid="biscuit-heading"
+        >
+          Biscuit
+        </h2>
+        <p
+          class="profile-caption"
+          data-testid="biscuit-caption"
+        >
+          cavapoo, hecking good boy
+        </p>
+        <p
+          class="profile-intro"
+          data-testid="biscuit-intro"
+        >
+          He likes toys that squeak, yakker chews and being all in your business
+        </p>
+      </div>
+      <div
+        class="biscuit-image-row"
+        data-testid="biscuit-image-row"
+      >
+        <img
+          alt="biscuit-left"
+          class="biscuit-image biscuit-image-mobile"
+          src="biscuit-outside.png"
+        />
+        <img
+          alt="biscuit-middle"
+          class="biscuit-image"
+          src="biscuit-portrait.jpg"
+        />
+        <img
+          alt="biscuit-right"
+          class="biscuit-image biscuit-image-mobile biscuit-image-ipad"
+          src="biscuit-socks.jpg"
+        />
+      </div>
+    </section>
+    <section
+      class="section section-work"
+    >
+      <div
+        class="flex-row"
+      >
+        <h2
+          class="profile-heading"
+        >
+          Work
+        </h2>
+        <p
+          class="profile-caption-invert"
+        >
+          typing, clicking, stackoverflow-ing, caffeinating
+        </p>
+        <p
+          class="profile-intro"
+        >
+          Coming soon ...
+        </p>
+        <code
+          style="display: none;"
+        >
+          github things? screenshots? links?
+        </code>
+      </div>
+    </section>
+    <section
+      class="section section-cool"
+    >
+      <div
+        class="flex-row"
+      >
+        <h2
+          class="profile-heading"
+        >
+          Something cool
+        </h2>
+        <p
+          class="profile-caption"
+        >
+          trust me
+        </p>
+        <p
+          class="profile-intro"
+        >
+          Coming soon...
+        </p>
+      </div>
+    </section>
+  </main>
+</div>
+`;

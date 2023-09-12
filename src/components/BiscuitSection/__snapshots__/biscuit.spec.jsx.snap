@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Biscuit section Headings renders Biscuit section correctly 1`] = `
+<div>
+  <section
+    class="section section-biscuit section-biscuit-layout"
+  >
+    <div
+      class="flex-row"
+    >
+      <h2
+        class="profile-heading"
+        data-testid="biscuit-heading"
+      />
+      <p
+        class="profile-caption"
+        data-testid="biscuit-caption"
+      />
+      <p
+        class="profile-intro"
+        data-testid="biscuit-intro"
+      />
+    </div>
+    <div
+      class="biscuit-image-row"
+      data-testid="biscuit-image-row"
+    >
+      <img
+        alt="biscuit-left"
+        class="biscuit-image biscuit-image-mobile"
+        src="biscuit-outside.png"
+      />
+      <img
+        alt="biscuit-middle"
+        class="biscuit-image"
+        src="biscuit-portrait.jpg"
+      />
+      <img
+        alt="biscuit-right"
+        class="biscuit-image biscuit-image-mobile biscuit-image-ipad"
+        src="biscuit-socks.jpg"
+      />
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Work section correctly 1`] = `
+<div>
+  <section
+    class="section section-work"
+  >
+    <div
+      class="flex-row"
+    >
+      <h2
+        class="profile-heading"
+      >
+        Work
+      </h2>
+      <p
+        class="profile-caption-invert"
+      >
+        typing, clicking, stackoverflow-ing, caffeinating
+      </p>
+      <p
+        class="profile-intro"
+      >
+        Coming soon ...
+      </p>
+      <code
+        style="display: none;"
+      >
+        github things? screenshots? links?
+      </code>
+    </div>
+  </section>
+</div>
+`;

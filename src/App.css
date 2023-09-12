@@ -1,78 +1,107 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Titillium+Web&display=swap");
 
-body {
-  background: linear-gradient(110deg, #282c34 60%, #ffc30b 60%) no-repeat;
-  min-height: 100vh;
-}
-
 .page-section {
-  padding: 20px;
-  min-height: 90vh;
+  display: block;
+  overflow: hidden;
+}
+
+.section {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  color: white;
+  padding: 200px 0;
 }
 
-.left-site-content {
-  margin: auto;
-  max-width: 50vw;
-  display: flex;
+.section-hero {
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-biscuit {
+  background: #fbfbfd;
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-biscuit-layout {
   flex-direction: column;
-  align-items: left;
-  justify-content: left;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  text-align: left;
 }
 
-.right-side-content {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: left;
+.section-work {
+  background: #000;
+  color: #fff;
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#image {
-  max-width: 600px;
-  max-height: 600px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.section-cool {
+  background: #fbfbfd;
+  padding-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#header {
-  font-family: "Heebo", sans-serif;
-  font-size: 20px;
-  padding: 5px 0 5px 0;
-  text-transform: uppercase;
-  text-align: left;
+.flex-row {
+  flex-flow: row wrap;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-image {
+  width: 550px;
+  height: 275px;
+  clip-path: circle();
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0 38%;
+}
+
+.profile-heading {
+  margin-bottom: 0;
+  font-size: 64px;
+}
+
+.profile-caption {
+  color: #86868b;
   margin: 0;
 }
 
-#subHeader {
-  font-family: "Heebo", sans-serif;
-  line-height: 80%;
+.profile-caption-invert {
+  color: rgb(204, 201, 201);
   margin: 0;
-  text-align: left;
-  font-size: 100px;
-  color: white;
 }
 
-#bio-info {
-  font-family: "Titillium Web", sans-serif;
-  text-align: left;
-  font-size: 20px;
+.profile-intro {
+  font-size: 24px;
+  width: 80%;
+  margin: 50px auto;
 }
 
-#email {
-  font-size: 20px;
+.biscuit-image-row {
+  display: grid;
+  grid-template-columns: auto auto auto;
   margin: auto;
-  color: black;
-  text-align: left;
-  max-width: fit-content;
+  gap: 2px;
 }
 
+.biscuit-image {
+  width: 650px;
+  height: 750px;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0 55%;
+}
+
+/* npx component */
 button {
   background-color: grey;
   border-radius: 4px;
@@ -105,124 +134,55 @@ button:hover {
   animation-name: pop-up;
   animation-duration: 10s;
 }
+/* end of npx component */
 
-@keyframes pop-up {
-  from {
-    opacity: 0;
+@media only screen and (max-width: 2000px) and (min-width: 1601px) {
+  .biscuit-image {
+    width: 450px;
+    height: 550px;
   }
 
-  to {
-    opacity: 1;
-  }
 }
 
-#logo {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 20px 20px 50px;
-  top: 0;
-  left: 0;
-  height: fit-content;
+@media only screen and (max-width: 1600px) and (min-width: 1101px) {
+  .biscuit-image {
+    width: 350px;
+    height: 450px;
+  }
+
 }
 
-#logo-image {
-  max-width: 100px;
-  max-height: 100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: right;
+@media only screen and (max-width: 1100px) and (min-width: 751px) {
+  .biscuit-image {
+    width: 350px;
+    height: 450px;
+  }
+
+  .biscuit-image-ipad {
+    display: none;
+  }
+
 }
 
-@media only screen and (max-width: 850px) and (min-width: 601px) {
-  body {
-    background: linear-gradient(105deg, #282c34 60%, #ffc30b 60%) no-repeat;
-    min-height: 100vh;
+@media only screen and (max-width: 749px) {
+  .profile-image {
+    width: 375px;
   }
 
-  .page-section {
-    background: linear-gradient(105deg, #282c34 55%, #ffc30b 55%);
-    flex-direction: column;
-    min-height: 100vh;
+  .profile-heading {
+    font-size: 52px;
   }
 
-  .left-site-content {
-    margin-left: 50px;
-  }
-  .right-side-content {
-    margin-right: 0;
+  .profile-intro {
+    margin: 25px auto 50px auto;
   }
 
-  #subHeader {
-    font-size: 80px;
-    text-align: left;
+  .biscuit-image {
+    width: 350px;
+    height: 450px;
   }
-  button {
+
+  .biscuit-image-mobile {
     display: none;
-  }
-
-  button:hover {
-    display: none;
-  }
-
-  #npx-package {
-    display: none;
-  }
-
-  #info-disclaimer {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .page-section {
-    background: linear-gradient(150deg, #282c34 55%, #ffc30b 55%);
-    flex-direction: column;
-  }
-
-  .left-site-content {
-    margin-top: 75px;
-    min-width: 80vw;
-    text-align: center;
-  }
-
-  #subHeader {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  #logo {
-    padding: 10px 10px 10px 10px;
-  }
-
-  #bio-info {
-    text-align: center;
-  }
-
-  button {
-    display: none;
-  }
-
-  button:hover {
-    display: none;
-  }
-
-  #npx-package {
-    display: none;
-  }
-
-  #info-disclaimer {
-    display: none;
-  }
-
-  #image {
-    max-width: 300px;
-    max-height: 300px;
-    margin: auto;
-  }
-
-  #email {
-    text-align: center;
-    font-size: 15px;
   }
 }
