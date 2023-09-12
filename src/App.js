@@ -6,12 +6,13 @@ import { content } from "./fixtures/content"
 export const App = () => {
   // ---------- to go into a selector as it gets bigger -------
   const heroContent = content.hero
+  const biscuitContent = content.biscuit
   // ----------------------------------------------------------
 
   return (
     <main className="page-section">
       <Hero {...heroContent} />
-      <Biscuit />
+      <Biscuit {...biscuitContent} />
       <Work />
       <Cool />
     </main>

@@ -16,19 +16,16 @@ exports[`renders Work section correctly 1`] = `
       <p
         class="profile-caption-invert"
       >
-        typing, clicking, stackoverflow-ing
+        typing, clicking, stackoverflow-ing, caffeinating
       </p>
       <p
         class="profile-intro"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        Coming soon ...
       </p>
-      <p
-        class="profile-intro"
+      <code
+        style="display: none;"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-      </p>
-      <code>
         github things? screenshots? links?
       </code>
     </div>

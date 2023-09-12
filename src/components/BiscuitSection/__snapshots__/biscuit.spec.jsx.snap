@@ -11,21 +11,15 @@ exports[`Biscuit section Headings renders Biscuit section correctly 1`] = `
       <h2
         class="profile-heading"
         data-testid="biscuit-heading"
-      >
-        Biscuit
-      </h2>
+      />
       <p
         class="profile-caption"
         data-testid="biscuit-caption"
-      >
-        cavapoo, hecking good boy
-      </p>
+      />
       <p
         class="profile-intro"
         data-testid="biscuit-intro"
-      >
-        He likes toys that squeak, yakker chews and being all in your business
-      </p>
+      />
     </div>
     <div
       class="biscuit-image-row"
