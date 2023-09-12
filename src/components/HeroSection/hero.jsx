@@ -12,9 +12,13 @@ export const Hero = ({ title, caption, intro }) => (
       <h2 className="profile-heading" data-testid="profile-heading">
         {title}
       </h2>
-      <p className="profile-caption" data-testid="profile-caption">{caption}</p>
-      <p className="profile-intro" data-testid="profile-intro">{intro}</p>
-      <code>
+      <p className="profile-caption" data-testid="profile-caption">
+        {caption}
+      </p>
+      <p className="profile-intro" data-testid="profile-intro">
+        {intro}
+      </p>
+      <code style={{ display: "none" }}>
         need a graphic here to push the other sections out of initial view
       </code>
     </div>

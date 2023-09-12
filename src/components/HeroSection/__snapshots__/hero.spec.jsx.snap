@@ -25,7 +25,9 @@ exports[`Hero Section renders Hero section correctly 1`] = `
         class="profile-intro"
         data-testid="profile-intro"
       />
-      <code>
+      <code
+        style="display: none;"
+      >
         need a graphic here to push the other sections out of initial view
       </code>
     </div>

@@ -34,7 +34,9 @@ exports[`renders site correctly 1`] = `
         >
           Software developer, coffee enthusiast
         </p>
-        <code>
+        <code
+          style="display: none;"
+        >
           need a graphic here to push the other sections out of initial view
         </code>
       </div>
