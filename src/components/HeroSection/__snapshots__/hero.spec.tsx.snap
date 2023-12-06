@@ -16,15 +16,21 @@ exports[`Hero Section renders Hero section correctly 1`] = `
       <h2
         class="profile-heading"
         data-testid="profile-heading"
-      />
+      >
+        title
+      </h2>
       <p
         class="profile-caption"
         data-testid="profile-caption"
-      />
+      >
+        caption
+      </p>
       <p
         class="profile-intro"
         data-testid="profile-intro"
-      />
+      >
+        intro
+      </p>
       <code
         style="display: none;"
       >
