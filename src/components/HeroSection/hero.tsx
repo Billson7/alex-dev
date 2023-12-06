@@ -1,7 +1,12 @@
-import React from "react"
+import React, { ReactElement } from "react"
 import profilePicture from "./Assets/profile-picture.jpeg"
 
-export const Hero = ({ title, caption, intro }) => (
+type Hero = {
+  title: string,
+  caption: string,
+  intro: string
+}
+export const Hero = ({ title, caption, intro }: Hero):ReactElement => (
   <section className="section section-hero">
     <div className="flex-row">
       <img
