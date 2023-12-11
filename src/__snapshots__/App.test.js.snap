@@ -101,12 +101,12 @@ exports[`renders site correctly 1`] = `
         <p
           class="profile-caption-invert"
         >
-          Coming soon ...
+          typing, clicking, stackoverflow-ing, caffeinating
         </p>
         <p
           class="profile-intro"
         >
-          typing, clicking, stackoverflow-ing, caffeinating
+          Coming soon ...
         </p>
         <code
           style="display: none;"
@@ -129,12 +129,12 @@ exports[`renders site correctly 1`] = `
         <p
           class="profile-caption"
         >
-          Coming soon ...
+          trust me
         </p>
         <p
           class="profile-intro"
         >
-          trust me
+          Coming soon ...
         </p>
       </div>
     </section>

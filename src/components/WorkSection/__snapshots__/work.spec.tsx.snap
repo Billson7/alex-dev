@@ -16,12 +16,12 @@ exports[`renders Work section correctly 1`] = `
       <p
         class="profile-caption-invert"
       >
-        intro
+        caption
       </p>
       <p
         class="profile-intro"
       >
-        caption
+        intro
       </p>
       <code
         style="display: none;"
