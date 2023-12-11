@@ -11,17 +11,17 @@ exports[`renders Work section correctly 1`] = `
       <h2
         class="profile-heading"
       >
-        Work
+        heading
       </h2>
       <p
         class="profile-caption-invert"
       >
-        typing, clicking, stackoverflow-ing, caffeinating
+        caption
       </p>
       <p
         class="profile-intro"
       >
-        Coming soon ...
+        intro
       </p>
       <code
         style="display: none;"

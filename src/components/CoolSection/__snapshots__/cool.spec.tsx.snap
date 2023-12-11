@@ -11,17 +11,17 @@ exports[`renders Cool section correctly 1`] = `
       <h2
         class="profile-heading"
       >
-        Something cool
+        heading
       </h2>
       <p
         class="profile-caption"
       >
-        trust me
+        caption
       </p>
       <p
         class="profile-intro"
       >
-        Coming soon...
+        intro
       </p>
     </div>
   </section>

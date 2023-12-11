@@ -32,7 +32,7 @@ exports[`renders site correctly 1`] = `
           class="profile-intro"
           data-testid="profile-intro"
         >
-          Software developer, coffee enthusiast
+          Software engineer, coffee enthusiast
         </p>
         <code
           style="display: none;"
@@ -134,7 +134,7 @@ exports[`renders site correctly 1`] = `
         <p
           class="profile-intro"
         >
-          Coming soon...
+          Coming soon ...
         </p>
       </div>
     </section>

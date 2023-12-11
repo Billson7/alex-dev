@@ -1,14 +1,25 @@
 export const content = {
   hero: {
-    title: "Alex Billson",
+    heading: "Alex Billson",
     caption: "://developer",
-    intro: "Software developer, coffee enthusiast",
+    intro: "Software engineer, coffee enthusiast",
     introMock:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
   },
-  biscuit :{
-    title: "Biscuit",
+  biscuit: {
+    heading: "Biscuit",
     caption: "cavapoo, hecking good boy",
-    intro: "He likes toys that squeak, yakker chews and being all in your business",
-  }
+    intro:
+      "He likes toys that squeak, yakker chews and being all in your business",
+  },
+  work: {
+    heading: "Work",
+    caption: "typing, clicking, stackoverflow-ing, caffeinating",
+    intro: "Coming soon ...",
+  },
+  cool: {
+    heading: "Something cool",
+    caption: "trust me",
+    intro: "Coming soon ...",
+  },
 }
