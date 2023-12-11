@@ -1,5 +1,5 @@
 export type BasicContent = {
-    heading: string
-    caption: string
-    intro: string
+  heading: string
+  caption: string
+  intro: string
 }
