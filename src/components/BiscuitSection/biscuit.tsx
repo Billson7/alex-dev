@@ -4,16 +4,16 @@ import biscuitPortrait from "./Assets/biscuit-portrait.jpg"
 import biscuitSocks from "./Assets/biscuit-socks.jpg"
 
 type Biscuit = {
-  title: string
+  heading: string
   caption: string
   intro: string
 }
 
-export const Biscuit = ({ title, caption, intro }: Biscuit): ReactElement => (
+export const Biscuit = ({ heading, caption, intro }: Biscuit): ReactElement => (
   <section className="section section-biscuit section-biscuit-layout">
     <div className="flex-row">
       <h2 className="profile-heading" data-testid="biscuit-heading">
-        {title}
+        {heading}
       </h2>
       <p className="profile-caption" data-testid="biscuit-caption">
         {caption}
