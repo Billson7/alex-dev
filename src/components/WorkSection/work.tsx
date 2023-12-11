@@ -1,5 +1,5 @@
 import React from "react"
-import { BasicContent } from "../types"
+import type { BasicContent } from "../types"
 
 export const Work = ({ heading, caption, intro }: BasicContent) => (
   <section className="section section-work">

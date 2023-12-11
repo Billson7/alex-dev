@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react"
-import { BasicContent } from "../types"
+import type { BasicContent } from "../types"
 
 export const Cool = ({
   heading,
