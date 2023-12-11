@@ -32,7 +32,7 @@ exports[`renders site correctly 1`] = `
           class="profile-intro"
           data-testid="profile-intro"
         >
-          Software developer, coffee enthusiast
+          Software engineer, coffee enthusiast
         </p>
         <code
           style="display: none;"
@@ -101,12 +101,12 @@ exports[`renders site correctly 1`] = `
         <p
           class="profile-caption-invert"
         >
-          typing, clicking, stackoverflow-ing, caffeinating
+          Coming soon ...
         </p>
         <p
           class="profile-intro"
         >
-          Coming soon ...
+          typing, clicking, stackoverflow-ing, caffeinating
         </p>
         <code
           style="display: none;"
@@ -129,12 +129,12 @@ exports[`renders site correctly 1`] = `
         <p
           class="profile-caption"
         >
-          trust me
+          Coming soon ...
         </p>
         <p
           class="profile-intro"
         >
-          Coming soon...
+          trust me
         </p>
       </div>
     </section>

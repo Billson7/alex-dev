@@ -12,7 +12,7 @@ exports[`Biscuit section Headings renders Biscuit section correctly 1`] = `
         class="profile-heading"
         data-testid="biscuit-heading"
       >
-        title
+        heading
       </h2>
       <p
         class="profile-caption"

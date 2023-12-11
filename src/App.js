@@ -6,13 +6,14 @@ import { content } from "./fixtures/content"
 export const App = () => {
   const heroContent = content.hero
   const biscuitContent = content.biscuit
+  const workContent = content.work
   const coolContent = content.cool
 
   return (
     <main className="page-section">
       <Hero {...heroContent} />
       <Biscuit {...biscuitContent} />
-      <Work />
+      <Work {...workContent} />
       <Cool {...coolContent} />
     </main>
   )
