@@ -4,17 +4,16 @@ import { Hero, Biscuit, Work, Cool } from "./components"
 import { content } from "./fixtures/content"
 
 export const App = () => {
-  // ---------- to go into a selector as it gets bigger -------
   const heroContent = content.hero
   const biscuitContent = content.biscuit
-  // ----------------------------------------------------------
+  const coolContent = content.cool
 
   return (
     <main className="page-section">
       <Hero {...heroContent} />
       <Biscuit {...biscuitContent} />
       <Work />
-      <Cool />
+      <Cool {...coolContent} />
     </main>
   )
 }

@@ -12,4 +12,14 @@ export const content = {
     intro:
       "He likes toys that squeak, yakker chews and being all in your business",
   },
+  work: {
+    heading: "Work",
+    caption: "typing, clicking, stackoverflow-ing, caffeinating",
+    intro: "Coming soon ...",
+  },
+  cool: {
+    heading: "Something cool",
+    caption: "trust me",
+    intro: "Coming soon ...",
+  },
 }
