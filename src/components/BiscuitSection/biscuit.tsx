@@ -2,14 +2,13 @@ import React, { ReactElement } from "react"
 import biscuitOutside from "./Assets/biscuit-outside.png"
 import biscuitPortrait from "./Assets/biscuit-portrait.jpg"
 import biscuitSocks from "./Assets/biscuit-socks.jpg"
+import type { BasicContent } from "../types"
 
-type Biscuit = {
-  heading: string
-  caption: string
-  intro: string
-}
-
-export const Biscuit = ({ heading, caption, intro }: Biscuit): ReactElement => (
+export const Biscuit = ({
+  heading,
+  caption,
+  intro,
+}: BasicContent): ReactElement => (
   <section className="section section-biscuit section-biscuit-layout">
     <div className="flex-row">
       <h2 className="profile-heading" data-testid="biscuit-heading">
