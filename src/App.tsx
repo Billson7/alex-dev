@@ -1,14 +1,10 @@
 import React, { ReactElement } from "react"
 import "./App.css"
 import { Hero, Biscuit, Work, Cool } from "./components"
-import { content } from "./fixtures/content"
-import type { BasicContent } from "../types"
+import { getContent } from "./content-selector"
 
 export const App = (): ReactElement => {
-  const heroContent: BasicContent = content.hero
-  const biscuitContent: BasicContent = content.biscuit
-  const workContent: BasicContent = content.work
-  const coolContent: BasicContent = content.cool
+  const { heroContent, biscuitContent, workContent, coolContent } = getContent()
 
   return (
     <main className="page-section">
