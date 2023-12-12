@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react"
 import profilePicture from "./Assets/profile-picture.jpeg"
-import type { BasicContent } from "../types"
+import type { BasicContent } from "../../../types"
 
 export const Hero = ({
   heading,

@@ -9,19 +9,13 @@
     "strict": true,
     "noImplicitAny": true,
     "skipLibCheck": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"],
   "exclude": ["tsconfig.json"]
 }
