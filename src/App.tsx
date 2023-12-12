@@ -1,10 +1,12 @@
 import React, { ReactElement } from "react"
 import "./App.css"
 import { Hero, Biscuit, Work, Cool } from "./components"
-import { getContent } from "./content-selector"
+import { getContent } from "./selectors/content-selector"
+import { content } from "./fixtures/content"
 
 export const App = (): ReactElement => {
-  const { heroContent, biscuitContent, workContent, coolContent } = getContent()
+  const { heroContent, biscuitContent, workContent, coolContent } =
+    getContent(content)
 
   return (
     <main className="page-section">
