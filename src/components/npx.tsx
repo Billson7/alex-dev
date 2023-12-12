@@ -1,14 +1,14 @@
-import React, { useState } from "react"
+import React, { ReactElement, useState } from "react"
 import "../App.css"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 
-const CMD_TEXT = "npx alexbillson-dev"
-const ALERT_TEXT = "Click to copy, then paste into a terminal"
-const ALERT_COPIED_TEXT = "Copied!"
+const CMD_TEXT: string = "npx alexbillson-dev"
+const ALERT_TEXT: string = "Click to copy, then paste into a terminal"
+const ALERT_COPIED_TEXT: string = "Copied!"
 
-export const Npx = () => {
+export const Npx = (): ReactElement => {
   const [alertText, setAlertText] = useState(ALERT_TEXT)
-  const copiedAlert = () => setAlertText(ALERT_COPIED_TEXT)
+  const copiedAlert = (): void => setAlertText(ALERT_COPIED_TEXT)
 
   return (
     <>

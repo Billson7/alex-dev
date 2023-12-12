@@ -2,7 +2,7 @@ import React, { ReactElement } from "react"
 import biscuitOutside from "./Assets/biscuit-outside.png"
 import biscuitPortrait from "./Assets/biscuit-portrait.jpg"
 import biscuitSocks from "./Assets/biscuit-socks.jpg"
-import type { BasicContent } from "../types"
+import type { BasicContent } from "../../../types"
 
 export const Biscuit = ({
   heading,
