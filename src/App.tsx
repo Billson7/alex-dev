@@ -2,7 +2,7 @@ import React, { ReactElement } from "react"
 import "./App.css"
 import { Hero, Biscuit, Work, Cool } from "./components"
 import { content } from "./fixtures/content"
-import { BasicContent } from "../types"
+import type { BasicContent } from "../types"
 
 export const App = (): ReactElement => {
   const heroContent: BasicContent = content.hero
