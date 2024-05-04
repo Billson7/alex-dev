@@ -1,10 +1,10 @@
-import React, { ReactElement } from "react"
+import React, { type FC } from "react"
 import "./App.css"
 import { Hero, Biscuit, Work, Cool } from "./components"
 import { getContent } from "./selectors/content-selector"
 import { content } from "./fixtures/content"
 
-export const App = (): ReactElement => {
+export const App: FC = () => {
   const { heroContent, biscuitContent, workContent, coolContent } =
     getContent(content)
 
