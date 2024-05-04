@@ -1,13 +1,13 @@
 import type { BasicContent } from "../../types"
 
-type Prop = {
+interface Prop {
   hero: BasicContent
   biscuit: BasicContent
   work: BasicContent
   cool: BasicContent
 }
 
-type Content = {
+interface Content {
   heroContent: BasicContent
   biscuitContent: BasicContent
   workContent: BasicContent
