@@ -1,9 +1,8 @@
-import React, { type FC } from "react"
+import React, { useRef, type FC } from "react"
 import profilePicture from "./Assets/profile-picture.jpeg"
 import type { BasicContent } from "../../../types"
-
 export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
-  <section className="is-hidden section section-hero">
+  <section className="section section-hero">
     <div className="flex-row">
       <img
         src={profilePicture}
