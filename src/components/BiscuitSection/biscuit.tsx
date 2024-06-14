@@ -20,7 +20,7 @@ export const Biscuit: FC<BasicContent> = ({ heading, caption, intro }) => {
         opacity: scrollYProgress,
       }}
     >
-      <section className="is-hidden section section-biscuit section-biscuit-layout ">
+      <section className="section section-biscuit section-biscuit-layout ">
         <div className="flex-row">
           <h2 className="profile-heading" data-testid="biscuit-heading">
             {heading}
