@@ -3,7 +3,7 @@ import profilePicture from "./Assets/profile-picture.jpeg"
 import type { BasicContent } from "../../../types"
 
 export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
-  <section className="section section-hero">
+  <section className="is-hidden section section-hero">
     <div className="flex-row">
       <img
         src={profilePicture}
