@@ -1,7 +1,7 @@
-import React from "react"
+import React, { type FC } from "react"
 import type { BasicContent } from "../../../types"
 
-export const Work = ({ heading, caption, intro }: BasicContent) => (
+export const Work: FC<BasicContent> = ({ heading, caption, intro }) => (
   <section className="section section-work">
     <div className="flex-row">
       <h2 className="profile-heading">{heading}</h2>

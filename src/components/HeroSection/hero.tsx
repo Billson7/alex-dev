@@ -1,12 +1,8 @@
-import React, { ReactElement } from "react"
+import React, { type FC } from "react"
 import profilePicture from "./Assets/profile-picture.jpeg"
 import type { BasicContent } from "../../../types"
 
-export const Hero = ({
-  heading,
-  caption,
-  intro,
-}: BasicContent): ReactElement => (
+export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
   <section className="section section-hero">
     <div className="flex-row">
       <img
