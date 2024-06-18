@@ -1,7 +1,7 @@
+import { useRef, type ReactNode } from "react"
 import { motion, useInView } from "framer-motion"
-import { useRef } from "react"
 
-export const Section = ({ children }: { children: React.ReactNode }) => {
+export const Section = ({ children }: { children: ReactNode }): ReactNode => {
   const ref = useRef<HTMLDivElement>(null)
   const isInView = useInView(ref, { once: true })
 
