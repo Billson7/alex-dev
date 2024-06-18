@@ -1,4 +1,3 @@
-## Pull Request Template
 <!--
 Add a gif from here https://giphy.com
 -->
