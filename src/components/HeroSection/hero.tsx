@@ -1,9 +1,11 @@
 import React, { useRef, type FC } from "react"
 import profilePicture from "./Assets/profile-picture.jpeg"
 import type { BasicContent } from "../../../types"
+import { Section } from "../Section/section"
+
 export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
-  <section className="section section-hero">
-    <div className="flex-row">
+  <Section>
+    <div className="section-hero flex-row">
       <img
         src={profilePicture}
         alt="profile of Alex"
@@ -22,5 +24,5 @@ export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
         need a graphic here to push the other sections out of initial view
       </code>
     </div>
-  </section>
+  </Section>
 )

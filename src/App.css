@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 200px 0;
+  height: 101vh;
 }
 
 .section-hero {
@@ -22,6 +22,7 @@
 .section-biscuit {
   background: #fbfbfd;
   padding-top: 100px;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -35,6 +36,7 @@
   background: #000;
   color: #fff;
   padding-top: 100px;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -44,13 +46,14 @@
   background: #fbfbfd;
   padding-top: 100px;
   text-align: center;
+  width: 100%;
+
   margin-left: auto;
   margin-right: auto;
 }
 
 .flex-row {
   flex-flow: row wrap;
-  max-width: 980px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -87,9 +90,9 @@
 
 .biscuit-image-row {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 2fr 2fr 2fr;
   margin: auto;
-  gap: 2px;
+  gap: 1px;
 }
 
 .biscuit-image {
