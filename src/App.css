@@ -5,6 +5,12 @@
   overflow: hidden;
 }
 
+.section-content {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  max-width: 692px;
+}
+
 .section {
   display: flex;
   flex-wrap: wrap;
@@ -55,23 +61,70 @@
   margin-right: auto;
 }
 
-.profile-image {
-  width: 550px;
-  height: 275px;
-  clip-path: circle();
+.hero-tile {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+
+  @media screen and (max-width: 749px) {
+    flex-direction: column;
+  }
+}
+
+.tile-media {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  flex-basis: 400px;
+  flex-shrink: 1;
   overflow: hidden;
+  border-radius: 25px 0 0 25px;
+}
+
+.tile-content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  /* justify-content: space-between; */
+  width: 40%;
+  text-align: left;
+}
+
+.hero-tile {
+  justify-content: space-between;
+  flex-basis: 0;
+  background: #fbfbfd;
+  border-radius: 25px;
+}
+
+.profile-image {
   object-fit: cover;
-  object-position: 0 38%;
+  object-position: 80% 100%;
+  width: auto;
+  height: auto;
+  max-width: 450px;
+  max-height: 525px;
+  position: relative;
 }
 
 .profile-heading {
-  margin-bottom: 0;
-  font-size: 64px;
+  font-size: 28px;
+  line-height: 1.1904761905;
+  font-weight: 700;
+  letter-spacing: .011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
 .profile-caption {
-  color: #86868b;
-  margin: 0;
+  font-size: 12px;
+  line-height: 1.3333733333;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-bottom: 24px;
+  color: #6e6e73;
 }
 
 .profile-caption-invert {
@@ -80,9 +133,12 @@
 }
 
 .profile-intro {
-  font-size: 24px;
-  width: 80%;
-  margin: 50px auto;
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 700;
+  letter-spacing: .011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
 }
 
 .biscuit-image-row {
