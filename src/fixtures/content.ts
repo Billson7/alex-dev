@@ -1,7 +1,7 @@
 export const content = {
   hero: {
     heading: 'Alex Billson',
-    caption: '://developer',
+    caption: 'Senior Software Engineer',
     intro: 'Software engineer, coffee enthusiast'
   },
   biscuit: {

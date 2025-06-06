@@ -10,7 +10,9 @@ export const App: FC = () => {
 
   return (
     <main className="page-section">
-      <Hero {...heroContent} />
+      <div className="section-content">
+        <Hero {...heroContent} />
+      </div>
       <Biscuit {...biscuitContent} />
       <Work {...workContent} />
       <Cool {...coolContent} />
