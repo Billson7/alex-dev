@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Titillium+Web&display=swap");
 
 .page-section {
   padding: 20px;
-  background: linear-gradient(110deg, #282c34 60%, #FFC30B 60%);
+  background: linear-gradient(110deg, #282c34 60%, #ffc30b 60%);
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -38,7 +38,7 @@
 }
 
 #header {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   font-size: 20px;
   padding: 5px 0 5px 0;
   text-transform: uppercase;
@@ -47,7 +47,7 @@
 }
 
 #subHeader {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   line-height: 80%;
   margin: 0;
   text-align: left;
@@ -56,7 +56,7 @@
 }
 
 #placeholder {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   text-align: left;
   font-size: 20px;
 }
@@ -100,14 +100,14 @@
 
 @media only screen and (max-width: 600px) {
   .page-section {
-    background: linear-gradient(150deg, #282c34 55%, #FFC30B 55%);
+    background: linear-gradient(150deg, #282c34 55%, #ffc30b 55%);
     flex-direction: column;
   }
 
   .left-site-content {
     margin-top: 75px;
     min-width: 80vw;
-    text-align: center
+    text-align: center;
   }
 
   #subHeader {
@@ -120,7 +120,7 @@
   }
 
   #placeholder {
-    text-align: center
+    text-align: center;
   }
 
   #npx-package {
