@@ -1,8 +1,8 @@
-import React, { type FC } from "react"
-import biscuitOutside from "./Assets/biscuit-outside.png"
-import biscuitPortrait from "./Assets/biscuit-portrait.jpg"
-import biscuitSocks from "./Assets/biscuit-socks.jpg"
-import type { BasicContent } from "../../../types"
+import React, { type FC } from 'react';
+import type { BasicContent } from '../../../types';
+import biscuitOutside from './Assets/biscuit-outside.png';
+import biscuitPortrait from './Assets/biscuit-portrait.jpg';
+import biscuitSocks from './Assets/biscuit-socks.jpg';
 
 export const Biscuit: FC<BasicContent> = ({ heading, caption, intro }) => (
   <section className="section section-biscuit section-biscuit-layout">
@@ -35,4 +35,4 @@ export const Biscuit: FC<BasicContent> = ({ heading, caption, intro }) => (
       />
     </div>
   </section>
-)
+);

@@ -1,1 +1,1 @@
-export { Biscuit } from "./biscuit"
+export { Biscuit } from './biscuit';

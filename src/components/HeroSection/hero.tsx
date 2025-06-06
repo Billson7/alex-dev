@@ -1,6 +1,6 @@
-import React, { type FC } from "react"
-import profilePicture from "./Assets/profile-picture.jpeg"
-import type { BasicContent } from "../../../types"
+import React, { type FC } from 'react';
+import type { BasicContent } from '../../../types';
+import profilePicture from './Assets/profile-picture.jpeg';
 
 export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
   <section className="section section-hero">
@@ -19,9 +19,9 @@ export const Hero: FC<BasicContent> = ({ heading, caption, intro }) => (
       <p className="profile-intro" data-testid="profile-intro">
         {intro}
       </p>
-      <code style={{ display: "none" }}>
+      <code style={{ display: 'none' }}>
         need a graphic here to push the other sections out of initial view
       </code>
     </div>
   </section>
-)
+);

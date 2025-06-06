@@ -1,1 +1,1 @@
-export { Cool } from "./cool"
+export { Cool } from './cool';

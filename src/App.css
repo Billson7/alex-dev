@@ -141,7 +141,6 @@ button:hover {
     width: 450px;
     height: 550px;
   }
-
 }
 
 @media only screen and (max-width: 1600px) and (min-width: 1101px) {
@@ -149,7 +148,6 @@ button:hover {
     width: 350px;
     height: 450px;
   }
-
 }
 
 @media only screen and (max-width: 1100px) and (min-width: 751px) {
@@ -161,7 +159,6 @@ button:hover {
   .biscuit-image-ipad {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 749px) {
